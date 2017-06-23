@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SoundCloud Music Search</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>FrankTunes</h1>
+    </header>
+    <div id="nowPlaying">
+    </div>
+    <section class="player">
+      <audio id="music-player" controls="controls" src=""></audio>
+    </section>
+    <section class="search">
+      <label for="musicSearchBar">Search for your favorite music</label>
+      <input type="text" name="musicSearchBar" id="musicSearchBar">
+      <button type="submit" value="submit" id="submitButton">Search</button>
+    </section>
+    <section id="results"></section>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
